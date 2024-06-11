@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Pluto-01_Stern_03_Pluto_Color_TXT.jpg/1024px-Pluto-01_Stern_03_Pluto_Color_TXT.jpg" alt="My Blog Image" class="blog-image">
+            <div class="logo">
+                <h1>My First Blog</h1>
+            </div>
+        </div>
+        
+        <div class="bold-line"></div>
+
+        <div class="right">
+            <h2>What's on your mind?</h2>
+            <form id="blogForm">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                <label for="title">Title</label>
+                <input type="text" id="title" name="title" required>
+                <label for="content">Content</label>
+                <textarea id="content" name="content" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
